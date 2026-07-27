@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0031-next-permutation](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0031-next-permutation) |
 | [0053-maximum-subarray](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0053-maximum-subarray) |
+| [0128-longest-consecutive-sequence](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0128-longest-consecutive-sequence) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -20,4 +21,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0031-next-permutation](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0031-next-permutation) |
+## Hash Table
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0128-longest-consecutive-sequence) |
+## Union-Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
