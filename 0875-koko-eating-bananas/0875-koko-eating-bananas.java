@@ -4,7 +4,7 @@ class Solution {
         int n=piles.length;
         // need to know what is the maximum 
         int max=0;
-        int sum=0;
+       // int sum=0;
         for(int i=0;i<n;i++)
         {
             if(piles[i]>max)
@@ -12,7 +12,7 @@ class Solution {
                 max=piles[i];
 
             }
-            sum=sum+piles[i];
+           // sum=sum+piles[i];
         }
         int low=1;
         int high=max;
