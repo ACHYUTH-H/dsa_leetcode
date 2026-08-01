@@ -1,40 +1,41 @@
 class Solution {
-    public int minEatingSpeed(int[] piles, int h) 
-    {
-        int n=piles.length;
-        // need to know what is the maximum 
-        int max=0;
-       // int sum=0;
-        for(int i=0;i<n;i++)
-        {
-            if(piles[i]>max)
-            {
-                max=piles[i];
+    public int minEatingSpeed(int[] piles, int h) {
 
-            }
-           // sum=sum+piles[i];
+        int max = 0;
+
+        for (int pile : piles) {
+            max = Math.max(max, pile);
         }
-        int low=1;
-        int high=max;
-        while(low<=high)
-        {
-            int mid=(low+high)/2;
-            int hours=0;
-            for(int i=0;i<n;i++)
-            {
-                hours += Math.ceil((double)piles[i] / mid);
+
+        int low = 1;
+        int high = max;
+        int ans = max;
+
+        while (low <= high) {
+
+            int mid = low + (high - low) / 2;
+
+            int hours = 0;
+
+            for (int pile : piles) {
+
+                // Ceiling division without Math.ceil()
+                hours += (pile + mid - 1) / mid;
+
+                // No need to continue if already exceeding h
+                if (hours > h) {
+                    break;
+                }
             }
-            if(hours<=h)
-            //here we might get confused because we need to move right with updating low but the reason we stayed and moved right is we need to increase speed means decrease time so the conditions become exchanged
-            {
-                max=mid;
-                high=mid-1;
-            }
-            else
-            {
-                low=mid+1;
+
+            if (hours <= h) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
             }
         }
- return max;     
+
+        return ans;
     }
 }
