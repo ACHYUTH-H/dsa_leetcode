@@ -25,6 +25,7 @@ class Solution {
                 hours += Math.ceil((double)piles[i] / mid);
             }
             if(hours<=h)
+            //here we might get confused because we need to move right with updating low but the reason we stayed and moved right is we need to increase speed means decrease time so the conditions become exchanged
             {
                 max=mid;
                 high=mid-1;
