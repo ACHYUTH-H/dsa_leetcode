@@ -29,13 +29,13 @@ class Solution {
         {
             int mid=(low+high)/2;
             int how=count(nums,mid);
-            if(how>k)
+            if(how<=k)
             {
-                low=mid+1;
+               
+                high=mid-1;
             }
             else
-            {
-                high=mid-1;
+            { low=mid+1;
             }
         }
         
