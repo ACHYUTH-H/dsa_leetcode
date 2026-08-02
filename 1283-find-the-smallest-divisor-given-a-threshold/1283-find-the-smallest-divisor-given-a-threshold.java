@@ -5,13 +5,12 @@ class Solution {
         for(int i :nums)
         {
             sum= sum+ (i+mid-1)/mid;
-        }
-        if(sum<=k)
+            if(sum>k)
         {
-            return true;
+            return false;
         }
-        else
-        return false;
+        }
+                return true;
     }
     public int mini(int[] nums)
     {
