@@ -12,15 +12,7 @@ class Solution {
         }
                 return true;
     }
-    public int mini(int[] nums)
-    {
-        int min=1000000;
-        for(int i:nums)
-        {
-            min=Math.min(min,i);
-        }
-        return min;
-    }
+  
     public int maxi(int[]nums)
     {
         int max=0;
@@ -33,7 +25,7 @@ class Solution {
     public int smallestDivisor(int[] nums, int threshold) 
     {
         int n=nums.length;
-        int min=mini(nums);
+        
         int max=maxi(nums);
         int low=1;
         int high=max;
