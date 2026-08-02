@@ -1,78 +1,46 @@
 class Solution {
-    public boolean isPossible(int[]arr,int day,int m,int k)
-    {
-        int count= 0;
-        int bouquets=0;
-        for(int i:arr)
-        {
-            if(i<=day)
-            {
-                count++;//consecutive numbers increment
-                if(count==k)
-                {
-                    count=0;
-                    bouquets++;
-                }
-            }
-            else  //no consecutive numbers 
-            {
-                count=0;
-            }
-        }
-        return bouquets>=m;
 
-    }
-    public int maxi(int[] arr)
-    {
-        int n=arr.length;
-        int max=0;
-        for(int i=0;i<n;i++)
-        {
-            max=Math.max(max,arr[i]);
-        }
-        return max;
-    }
-    public int mini(int[] arr)
-    {
-        int n=arr.length;
-        int min=arr[0];
-        for(int i=0;i<n;i++)
-        {
-            min=Math.min(min,arr[i]);
-        }
-        return min;
-    }
-    public int minDays(int[] bloomDay, int m, int k) 
-    {
-        //m is number of boquteee
-        //k is number of adjacent flowers
-        //elements in bloomDay tells us how many days to wait for them
-        int totalflowers=m*k;
-        int bld=bloomDay.length;
-        if(totalflowers>bloomDay.length)
-        {
-            return -1;
-        }
-        //okay this is binary search problem where 
-        int max=maxi(bloomDay);
-        int min=mini(bloomDay);
-        int low=min;
-        int high=max;
-        int ans=-1;
+    // Return the number of maximum bouquets that can be made on day mid.
+    private int getNumOfBouquets(int[] bloomDay, int mid, int k) {
+        int numOfBouquets = 0;
+        int count = 0;
 
-        while(low<=high)
-        {
-            int mid=(low+high)/2;
-            if(isPossible(bloomDay,mid,m,k))
-            {
-                ans=mid;
-                high=mid-1;
+        for (int i = 0; i < bloomDay.length; i++) {
+            // If the flower is bloomed, add to the set. Else reset the count.
+            if (bloomDay[i] <= mid) {
+                count++;
+            } else {
+                count = 0;
             }
-            else
-            {
-                low=mid+1;
+
+            if (count == k) {
+                numOfBouquets++;
+                count = 0;
             }
         }
-        return ans;
+
+        return numOfBouquets;
+    }
+
+    public int minDays(int[] bloomDay, int m, int k) {
+        int start = 0;
+        int end = 0;
+        for (int day : bloomDay) {
+            end = Math.max(end, day);
+        }
+
+        int minDays = -1;
+        while (start <= end) {
+            int mid = (start + end) / 2;
+
+            if (getNumOfBouquets(bloomDay, mid, k) >= m) {
+                minDays = mid;
+                end = mid - 1;
+            } else {
+                start = mid + 1;
+            }
+        }
+
+        return minDays;
     }
 }
