@@ -1,78 +1,77 @@
 class Solution {
-    public boolean isPossible(int[]arr,int day,int m,int k)
+    public boolean isPossible(int[]bloomDay,int days,int m, int k)
     {
-        int count= 0;
-        int bouquets=0;
-        for(int i:arr)
+        //understand what is m and what is k
+        int count=0;//flowers consecutive
+        int bloom=0;//bouquet
+        //compare with like indexed thing
+        for(int i:bloomDay)
         {
-            if(i<=day)
+            if(i<=days)//comparing mid value with days mentioned in array
             {
-                count++;//consecutive numbers increment
-                if(count==k)
+                count++;
+                if(count==k)//compare
                 {
-                    count=0;
-                    bouquets++;
-                }
+                    count =0;
+                    bloom++;
+                } 
+
             }
-            else  //no consecutive numbers 
+            else
             {
                 count=0;
             }
         }
-        return bouquets>=m;
-
+        return bloom>=m;
     }
-    public int maxi(int[] arr)
+    public int mini(int[]bloomDay)
     {
-        int n=arr.length;
-        int max=0;
-        for(int i=0;i<n;i++)
+        int min=1000000000;
+        for(int bloom:bloomDay)
         {
-            max=Math.max(max,arr[i]);
-        }
-        return max;
-    }
-    public int mini(int[] arr)
-    {
-        int n=arr.length;
-        int min=arr[0];
-        for(int i=0;i<n;i++)
-        {
-            min=Math.min(min,arr[i]);
+            min=Math.min(min,bloom);
         }
         return min;
     }
+    public int maxi(int[]bloomDay)
+    {
+        int max=0;
+        for(int bloom:bloomDay)
+        {
+            max=Math.max(max,bloom);
+            
+        }
+        return max;
+    }
+
     public int minDays(int[] bloomDay, int m, int k) 
     {
-        //m is number of boquteee
-        //k is number of adjacent flowers
-        //elements in bloomDay tells us how many days to wait for them
-        int totalflowers=m*k;
-        int bld=bloomDay.length;
-        if(totalflowers>bloomDay.length)
+    int n=bloomDay.length;
+    if((long)m*k>n)
+    {
+        return -1;
+    }
+        //find min and max
+    int min=mini(bloomDay);
+    int max=maxi(bloomDay);
+    //now find low and high and iterate through loop
+    int low=min;
+    int high=max;
+    int ans=-1;
+    while(low<=high)
+    {
+        int mid=(low+high)/2;
+        if (isPossible(bloomDay,mid,m,k))
         {
-            return -1;
-        }
-        //okay this is binary search problem where 
-        int max=maxi(bloomDay);
-        int min=mini(bloomDay);
-        int low=min;
-        int high=max;
-        int ans=-1;
+            ans=mid;
+            high=mid-1;
 
-        while(low<=high)
-        {
-            int mid=(low+high)/2;
-            if(isPossible(bloomDay,mid,m,k))
-            {
-                ans=mid;
-                high=mid-1;
-            }
-            else
-            {
-                low=mid+1;
-            }
         }
-        return ans;
+        else
+        {
+            low=mid+1;
+        }
+    }          
+    return ans;
     }
 }
