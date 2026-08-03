@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0014-longest-common-prefix](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0031-next-permutation) |
@@ -109,5 +110,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0014-longest-common-prefix](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0014-longest-common-prefix) |
 | [1903-largest-odd-number-in-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1903-largest-odd-number-in-string) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
