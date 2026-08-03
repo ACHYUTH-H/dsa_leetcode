@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0205-isomorphic-strings](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0205-isomorphic-strings) |
 | [0560-subarray-sum-equals-k](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0560-subarray-sum-equals-k) |
 ## Union-Find
 |  |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0014-longest-common-prefix) |
+| [0205-isomorphic-strings](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0205-isomorphic-strings) |
 | [1903-largest-odd-number-in-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1903-largest-odd-number-in-string) |
 ## Trie
 |  |
