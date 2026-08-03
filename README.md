@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0018-4sum) |
 | [0031-next-permutation](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0031-next-permutation) |
+| [0151-reverse-words-in-a-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0151-reverse-words-in-a-string) |
 ## Hash Table
 |  |
 | ------- |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0014-longest-common-prefix) |
+| [0151-reverse-words-in-a-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0242-valid-anagram) |
 | [0796-rotate-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0796-rotate-string) |
