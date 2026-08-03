@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0048-rotate-image) |
+| [1903-largest-odd-number-in-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1903-largest-odd-number-in-string) |
 ## Simulation
 |  |
 | ------- |
@@ -99,9 +100,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0410-split-array-largest-sum) |
+| [1903-largest-odd-number-in-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1903-largest-odd-number-in-string) |
 ## Sorting
 |  |
 | ------- |
 | [0015-3sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0018-4sum) |
+## String
+|  |
+| ------- |
+| [1903-largest-odd-number-in-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1903-largest-odd-number-in-string) |
 <!---LeetCode Topics End-->
