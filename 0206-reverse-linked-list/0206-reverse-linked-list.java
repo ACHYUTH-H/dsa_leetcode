@@ -11,18 +11,17 @@
 class Solution {
     public ListNode reverseList(ListNode head) 
     {
-    //now we need to reverse the singly linked list
-    //now we need to use two var
-    ListNode curr= head;
-    ListNode prev= null;
-    ListNode next=curr;
-    while(curr!=null)
-    {
+     //reversing the linked list we use three pointer approach 
+     ListNode curr=head;
+     ListNode prev=null;
+     ListNode next=curr;
+     while(curr!=null)
+     {
         next=curr.next;
         curr.next=prev;
         prev=curr;
         curr=next;
-    }
-    return prev;
+     }
+     return prev;
     }
 }
