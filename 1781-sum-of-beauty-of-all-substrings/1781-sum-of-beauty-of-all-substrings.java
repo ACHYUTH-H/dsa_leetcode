@@ -7,16 +7,19 @@ class Solution {
         for(int i=0;i<s.length();i++)
         {
             int l=i;
-            HashMap<Character,Integer>map=new HashMap<>();
-            // int max=0;
-            // int min=100000000;
+            //HashMap<Character,Integer>map=new HashMap<>();
+           int[] arr=new int[26];
             for(int j=i;j<s.length();j++)
             {
-               map.put(s.charAt(j),map.getOrDefault(s.charAt(j),0)+1);
+               //map.put(s.charAt(j),map.getOrDefault(s.charAt(j),0)+1);
+               arr[s.charAt(j)-'a']++;
                int mini=Integer.MAX_VALUE;
                int maxi=Integer.MIN_VALUE;
-               for(int a:map.values())
+               //for(int a:map.values())
+               for(int a:arr)
                {
+                if(a==0)
+                continue;
                 mini=Math.min(mini,a);
                 maxi=Math.max(maxi,a);
                }
