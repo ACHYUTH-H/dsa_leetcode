@@ -100,7 +100,6 @@ class Solution {
 
     curr.remove(curr.size() - 1);
 }
-//solve(candidates,target,index+1,curr,res);
 
     }
 }
