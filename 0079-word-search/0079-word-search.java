@@ -1,7 +1,8 @@
 class Solution {
-    public boolean solve(int row,int col,int ind,char[][] board,String word)
+   
+    public boolean solve(int row,int col,int ind,char[][] board,String word,Set<String> seen)
     {   
-
+        
         int m=board.length;
         int n=board[0].length;
         if(ind==word.length())
@@ -13,14 +14,20 @@ class Solution {
             return false;
         }
         //mark cell visited
-        char temp=board[row][col];
-        board[row][col]='#';
-        boolean ans=solve(row+1,col,ind+1,board,word)||
-        solve(row-1,col,ind+1,board,word)||
-        solve(row,col+1,ind+1,board,word)||
-        solve(row,col-1,ind+1,board,word);
+        // char temp=board[row][col];
+        // board[row][col]='#';
+        if(seen.contains(row+","+col))
+        {
+            return false;
+        }
+        seen.add(row+","+col);
+        boolean ans=solve(row+1,col,ind+1,board,word,seen)||
+        solve(row-1,col,ind+1,board,word,seen)||
+        solve(row,col+1,ind+1,board,word,seen)||
+        solve(row,col-1,ind+1,board,word,seen);
         //this is backtracking step
-        board[row][col]=temp;
+        seen.remove(row+","+col);
+        // board[row][col]=temp;
         return ans; 
         //need to understand why backtracking is very important in this
            
@@ -36,7 +43,7 @@ class Solution {
         {
             for(int j=0;j<board[0].length;j++)
             {
-                if(board[i][j]==word.charAt(0) && solve(i,j,0,board,word))
+                if(board[i][j]==word.charAt(0) && solve(i,j,0,board,word,new HashSet<>()))
                 {
                     return true;
                 }
