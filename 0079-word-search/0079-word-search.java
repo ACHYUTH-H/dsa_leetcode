@@ -21,7 +21,9 @@ class Solution {
         solve(row,col-1,ind+1,board,word);
         //this is backtracking step
         board[row][col]=temp;
-        return ans;    
+        return ans; 
+        //need to understand why backtracking is very important in this
+           
     }
 
     public boolean exist(char[][] board, String word) 
@@ -34,7 +36,7 @@ class Solution {
         {
             for(int j=0;j<board[0].length;j++)
             {
-                if(solve(i,j,0,board,word))
+                if(board[i][j]==word.charAt(0) && solve(i,j,0,board,word))
                 {
                     return true;
                 }
