@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0136-single-number) |
 | [0287-find-the-duplicate-number](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0287-find-the-duplicate-number) |
+| [2220-minimum-bit-flips-to-convert-number](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/2220-minimum-bit-flips-to-convert-number) |
 ## Pigeonhole Principle
 |  |
 | ------- |
