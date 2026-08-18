@@ -5,19 +5,16 @@ class Solution {
         if(n<=2)return 0;
         boolean[]nums=new boolean[n];
         int count=0;
-        for(int i=2;i<n;i++)
-        {
-            nums[i]=true;
-        }
+       
         for(int i=2;i*i<n;i++)
         {
-            if(nums[i]==true)
+            if(nums[i]==false)
             {
                  //count++;
                  int j=i*i;
                while(j<n)
                {
-                nums[j]=false;
+                nums[j]=true;
                 j=j+i;
                }
                
@@ -27,7 +24,7 @@ class Solution {
         //now we will have 1 in arr which tells us prime number
         for(int i=2;i<n;i++)
         {
-            if(nums[i]==true)
+            if(nums[i]==false)
             count++;
         }
         return count;
