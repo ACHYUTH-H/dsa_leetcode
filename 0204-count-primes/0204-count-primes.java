@@ -8,7 +8,7 @@ class Solution {
        
         for(int i=2;i*i<n;i++)
         {
-            if(nums[i]==false)
+            if(!nums[i])
             {
                  //count++;
                  int j=i*i;
@@ -24,7 +24,7 @@ class Solution {
         //now we will have 1 in arr which tells us prime number
         for(int i=2;i<n;i++)
         {
-            if(nums[i]==false)
+            if(!nums[i])
             count++;
         }
         return count;
