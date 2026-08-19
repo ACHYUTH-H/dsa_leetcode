@@ -1,47 +1,61 @@
-import java.util.LinkedList;
-import java.util.Queue;
-
-class MyStack {
-
-    private Queue<Integer> queue;
+class MyStack 
+{
+    Queue<Integer> o;
+    Queue<Integer> p;
     public MyStack() 
     {
-    queue=new LinkedList<>();    
+        o = new ArrayDeque<>();
+        p = new ArrayDeque<>();
     }
     
     public void push(int x) 
     {
-        //so now we have queue 
-        queue.add(x);
-        //while implementing the push operation only we are making the queue reverse 
-        for(int i=0;i<queue.size()-1;i++)
-        {
-            queue.add(queue.remove());
-        }
-        
+        o.add(x);
     }
     
     public int pop() 
     {
-     return queue.remove();   
+        if(o.isEmpty())
+        {
+            return -1;
+        }
+        while (o.size() > 1) 
+        {
+            p.add(o.remove());
+        }
+        int f = o.remove();
+        while(!p.isEmpty())
+        {
+            o.add(p.remove());
+        }
+        return f;
     }
     
     public int top() 
     {
-     return queue.peek();   
+        if(o.isEmpty())
+        {
+            return -1;
+        }
+        while (o.size() > 1) 
+        {
+            p.add(o.remove());
+        }
+        int f = o.remove();
+        p.add(f);
+        while(!p.isEmpty())
+        {
+            o.add(p.remove());
+        }
+        return f;
     }
     
     public boolean empty() 
     {
-    return queue.isEmpty();    
+        if(o.isEmpty())
+        {
+            return true;
+        }
+        return false;
     }
 }
-
-/**
- * Your MyStack object will be instantiated and called as such:
- * MyStack obj = new MyStack();
- * obj.push(x);
- * int param_2 = obj.pop();
- * int param_3 = obj.top();
- * boolean param_4 = obj.empty();
- */
