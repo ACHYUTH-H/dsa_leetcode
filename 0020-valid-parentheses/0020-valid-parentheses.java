@@ -15,24 +15,15 @@ class Solution {
             { if (stack.isEmpty()) {
                     return false;
                 }
-                
                 char top = stack.peek();
-
                 if(((c==')')&&stack.peek()=='(') || ((c=='}')&&stack.peek()=='{') || ((c==']')&&stack.peek()=='['))
                 stack.pop();
                 else
                 return false;
             }
-            else
-            {
-                continue;
-            }
+            
         }
 
-        if(stack.isEmpty())
-        {
-            return true;
-        }
-        return false;
+        return stack.isEmpty();
     }
 }
