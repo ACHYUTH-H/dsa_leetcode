@@ -4,6 +4,8 @@ class Solution {
     {
         Deque<Character>stack=new ArrayDeque<>();
         int n= s.length();
+        if(n<1)
+        return false;
         for(int i=0;i<n;i++)
         {
             char c=s.charAt(i);
