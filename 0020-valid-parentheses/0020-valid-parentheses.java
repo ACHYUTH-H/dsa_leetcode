@@ -1,8 +1,8 @@
-import java.util.Stack;
+
 class Solution {
     public boolean isValid(String s) 
     {
-        Stack<Character>stack=new Stack<>();
+        Deque<Character>stack=new ArrayDeque<>();
         int n= s.length();
         for(int i=0;i<n;i++)
         {
