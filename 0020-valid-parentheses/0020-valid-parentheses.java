@@ -9,11 +9,8 @@ class Solution {
         for(int i=0;i<n;i++)
         {
             char c=s.charAt(i);
-            if(s.charAt(i)=='('||s.charAt(i)=='{'||s.charAt(i)=='[')
-            {
-                stack.push(s.charAt(i));
-            }
-            else if (s.charAt(i)==')'||s.charAt(i)=='}'||s.charAt(i)==']')
+            
+            if (s.charAt(i)==')'||s.charAt(i)=='}'||s.charAt(i)==']')
             { if (stack.isEmpty()) {
                     return false;
                 }
@@ -22,6 +19,10 @@ class Solution {
                 stack.pop();
                 else
                 return false;
+            }
+            else
+            {
+                stack.push(s.charAt(i));
             }
             
         }
