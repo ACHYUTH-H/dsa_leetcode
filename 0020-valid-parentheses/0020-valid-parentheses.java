@@ -10,12 +10,12 @@ class Solution {
         {
             char c=s.charAt(i);
             
-            if (s.charAt(i)==')'||s.charAt(i)=='}'||s.charAt(i)==']')
+            if (c==')'||c=='}'||c==']')
             { if (stack.isEmpty()) {
                     return false;
                 }
                 char top = stack.peek();
-                if(((c==')')&&stack.peek()=='(') || ((c=='}')&&stack.peek()=='{') || ((c==']')&&stack.peek()=='['))
+                if(((c==')')&&top=='(') || ((c=='}')&&top=='{') || ((c==']')&&top=='['))
                 stack.pop();
                 else
                 return false;
