@@ -6,7 +6,7 @@ class Solution {
         int[] ans = new int[n];
         Stack<Integer> st = new Stack<>();
 
-        for (int i = 2 * n - 1; i >= 0; i--) {
+        for (int i =2*n-1; i>=0; i--) {
             int cur = nums[i % n];
 
             // 1. Pop all elements smaller than or equal to current element
