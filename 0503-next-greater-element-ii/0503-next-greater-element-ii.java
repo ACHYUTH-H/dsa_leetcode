@@ -16,7 +16,7 @@ class Solution {
 
             // 2. Record answer BEFORE pushing cur (only for actual indices i < n)
             if (i < n) {
-                ans[i] = st.isEmpty() ? -1 : st.peek();
+                ans[i] = !st.isEmpty() ? st.peek() : -1;
             }
 
             // 3. Push current element onto the stack
