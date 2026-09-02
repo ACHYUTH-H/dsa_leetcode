@@ -1,4 +1,5 @@
 import java.util.*;
+//here usage of the monotonic stack is unnessary but okay we know now how to use this also here
 
 class Solution {
     public int trap(int[] height) 
