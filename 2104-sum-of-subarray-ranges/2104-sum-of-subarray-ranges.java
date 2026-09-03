@@ -1,78 +1,93 @@
-import java.util.ArrayDeque;
-import java.util.Deque;
-
 class Solution {
-    public long subArrayRanges(int[] nums) {
-        return sumSubarrayMaxs(nums) - sumSubarrayMins(nums);
-    }
-
-    private long sumSubarrayMins(int[] arr) {
-        int n = arr.length;
-        int[] prev = new int[n];
-        int[] next = new int[n];
-        Deque<Integer> st = new ArrayDeque<>();
-
-        // Previous Smaller Element
-        for (int i = 0; i < n; i++) {
-            while (!st.isEmpty() && arr[st.peek()] > arr[i]) {
+      public long subarrayrange(int [] nums)
+      {
+        return sumsubarrayMax(nums)-sumsubarrayMin(nums);
+      }
+    
+    public long sumsubarrayMax(int[]nums)
+    {
+        int n=nums.length;
+        int[] prev= new int[n];
+        int[] next= new int [n];
+        Stack<Integer>st=new Stack<>();
+        for(int i=0;i<n;i++)
+        {
+            int a= nums[i];
+            while(!st.isEmpty() && nums[st.peek()]<a)
+            {
                 st.pop();
             }
-            prev[i] = st.isEmpty() ? -1 : st.peek();
-            st.push(i);
+          
+            prev[i]=st.isEmpty()?-1:st.peek();
+              st.push(i);
         }
-
         st.clear();
-
-        // Next Smaller or Equal Element
-        for (int i = n - 1; i >= 0; i--) {
-            while (!st.isEmpty() && arr[st.peek()] >= arr[i]) {
-                st.pop();
-            }
-            next[i] = st.isEmpty() ? n : st.peek();
+        //we are calculating nect so it should be from right to left
+        for(int i = n-1;i>=0;i--)
+        {
+            int a = nums[i];
+            while(!st.isEmpty() && nums[st.peek()]<=a)
+            {st.pop();}
+            
+            next[i]=st.isEmpty()?n:st.peek();
             st.push(i);
-        }
-
-        long sum = 0;
-        for (int i = 0; i < n; i++) {
-            long left = i - prev[i];
-            long right = next[i] - i;
-            sum += left * right * arr[i];
+       }
+        long sum =0;
+        for(int i =0 ;i<n;i++)
+        {
+            long left=i-prev[i];
+            long right= next[i]- i;
+            sum= sum+left*right*nums[i];
         }
         return sum;
     }
 
-    private long sumSubarrayMaxs(int[] arr) {
-        int n = arr.length;
-        int[] prev = new int[n];
-        int[] next = new int[n];
-        Deque<Integer> st = new ArrayDeque<>();
 
-        // Previous Greater Element
-        for (int i = 0; i < n; i++) {
-            while (!st.isEmpty() && arr[st.peek()] < arr[i]) {
+
+    public long sumsubarrayMin(int[]nums)
+    {
+        int n=nums.length;
+        int[] prev= new int[n];
+        int[] next= new int [n];
+        Stack<Integer>st=new Stack<>();
+        for(int i=0;i<n;i++)
+        {
+            int a= nums[i];
+            while(!st.isEmpty() && nums[st.peek()]>a)
+            {
                 st.pop();
             }
-            prev[i] = st.isEmpty() ? -1 : st.peek();
+            
+            prev[i]=st.isEmpty()?-1:st.peek();
             st.push(i);
         }
-
         st.clear();
-
-        // Next Greater or Equal Element
-        for (int i = n - 1; i >= 0; i--) {
-            while (!st.isEmpty() && arr[st.peek()] <= arr[i]) {
-                st.pop();
-            }
-            next[i] = st.isEmpty() ? n : st.peek();
+        //we are calculating nect so it should be from right to left
+        for(int i = n-1;i>=0;i--)
+        {
+            int a = nums[i];
+            while(!st.isEmpty() && nums[st.peek()]>=a)
+            {st.pop();}
+            
+            next[i]=st.isEmpty()?n:st.peek();
             st.push(i);
-        }
-
-        long sum = 0;
-        for (int i = 0; i < n; i++) {
-            long left = i - prev[i];
-            long right = next[i] - i;
-            sum += left * right * arr[i];
+       }
+        long sum =0;
+        for(int i =0 ;i<n;i++)
+        {
+            long left=i-prev[i];
+            long right= next[i]- i;
+            sum= sum+left*right*nums[i];
         }
         return sum;
+    }
+
+    
+
+
+    public long subArrayRanges(int[] nums) 
+    {
+      
+        return subarrayrange(nums);
     }
 }
