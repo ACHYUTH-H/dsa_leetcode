@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1539-kth-missing-positive-number) |
+| [2104-sum-of-subarray-ranges](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [1021-remove-outermost-parentheses](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [2104-sum-of-subarray-ranges](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/2104-sum-of-subarray-ranges) |
 ## Bracket Sequences
 |  |
 | ------- |
@@ -325,4 +327,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/2104-sum-of-subarray-ranges) |
 <!---LeetCode Topics End-->
