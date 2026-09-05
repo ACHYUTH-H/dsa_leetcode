@@ -11,12 +11,18 @@ class Solution
         {
             int a = (i==prefix.length)? 0: prefix[i];
             
+            //checking if the stack is empty and if top element is greater
+
             while(!st.isEmpty() && a<prefix[st.peek()])
             {
+                //is new number is less than stack top element
+                //pop that element and calculate the max sum
                 int height=prefix[st.pop()];
+                //here prefix of st is giving the value which has been calculated
                 int width=st.isEmpty()?i:i-st.peek()-1;
                 sum=Math.max(sum,height*width);
             }
+            //push the current to the stack 
             st.push(i);
         }
         return sum;
