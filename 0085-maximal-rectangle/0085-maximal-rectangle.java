@@ -30,7 +30,9 @@ class Solution
     public int maximalRectangle(char[][] matrix) 
     {
         //first we need to calculate the prefix sum 
-        
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return 0;
+        }
         int n=matrix.length;//number of rows
         int m=matrix[0].length;//number of columns
         int prefixsum[][]=new int[n][m];
