@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0735-asteroid-collision) |
 | [0875-koko-eating-bananas](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0875-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0907-sum-of-subarray-minimums) |
+| [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0004-median-of-two-sorted-arrays](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0148-sort-list) |
+| [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -121,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0050-powx-n) |
 | [0204-count-primes](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0204-count-primes) |
+| [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
 | [1903-largest-odd-number-in-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1903-largest-odd-number-in-string) |
 | [1922-count-good-numbers](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1922-count-good-numbers) |
 ## Simulation
@@ -166,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0148-sort-list) |
 | [0242-valid-anagram](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## String
 |  |
 | ------- |
@@ -224,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0451-sort-characters-by-frequency](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0451-sort-characters-by-frequency) |
+| [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -344,4 +349,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0084-largest-rectangle-in-histogram) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
+## Quickselect
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
+## K-D Tree
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
