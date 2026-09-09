@@ -38,7 +38,7 @@ class Solution {
         int[][] ans= new int [k][2];
         for(int i =0;i<k;i++)
         {
-            Triplet top= pq.remove();
+            Triplet top= pq.poll();
             ans[i][0]= top.x;
             ans[i][1]=top.y;
         }
