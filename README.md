@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0023-merge-k-sorted-lists](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0053-maximum-subarray) |
 | [0148-sort-list](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0148-sort-list) |
 | [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
@@ -227,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0451-sort-characters-by-frequency](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## Bucket Sort
@@ -247,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0023-merge-k-sorted-lists](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0061-rotate-list](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0061-rotate-list) |
 | [0138-copy-list-with-random-pointer](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0141-linked-list-cycle) |
@@ -288,6 +291,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Merge Sort
 |  |
 | ------- |
+| [0023-merge-k-sorted-lists](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0023-merge-k-sorted-lists) |
 | [0148-sort-list](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0148-sort-list) |
 ## Backtracking
 |  |
@@ -361,4 +365,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
