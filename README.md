@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0621-task-scheduler) |
 | [0704-binary-search](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0735-asteroid-collision) |
+| [0846-hand-of-straights](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0846-hand-of-straights) |
 | [0875-koko-eating-bananas](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0875-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0496-next-greater-element-i](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0496-next-greater-element-i) |
 | [0560-subarray-sum-equals-k](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0621-task-scheduler) |
+| [0846-hand-of-straights](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0846-hand-of-straights) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 ## Union-Find
 |  |
@@ -164,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0402-remove-k-digits](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0410-split-array-largest-sum) |
 | [0621-task-scheduler](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0621-task-scheduler) |
+| [0846-hand-of-straights](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0846-hand-of-straights) |
 | [1903-largest-odd-number-in-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1903-largest-odd-number-in-string) |
 ## Sorting
 |  |
@@ -174,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0621-task-scheduler) |
+| [0846-hand-of-straights](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0846-hand-of-straights) |
 | [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
 ## String
 |  |
