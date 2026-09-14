@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0216-combination-sum-iii](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0216-combination-sum-iii) |
 | [0287-find-the-duplicate-number](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0410-split-array-largest-sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0496-next-greater-element-i](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0503-next-greater-element-ii) |
 | [0540-single-element-in-a-sorted-array](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0540-single-element-in-a-sorted-array) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0085-maximal-rectangle](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0118-pascals-triangle) |
 | [0410-split-array-largest-sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0907-sum-of-subarray-minimums](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0907-sum-of-subarray-minimums) |
 ## Two Pointers
 |  |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0135-candy](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0135-candy) |
 | [0402-remove-k-digits](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0621-task-scheduler](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0846-hand-of-straights) |
 | [1903-largest-odd-number-in-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1903-largest-odd-number-in-string) |
@@ -186,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0056-merge-intervals](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0056-merge-intervals) |
 | [0148-sort-list](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0148-sort-list) |
 | [0242-valid-anagram](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0242-valid-anagram) |
+| [0435-non-overlapping-intervals](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0451-sort-characters-by-frequency) |
 | [0621-task-scheduler](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0846-hand-of-straights) |
