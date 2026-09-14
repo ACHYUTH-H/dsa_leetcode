@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0735-asteroid-collision) |
 | [0846-hand-of-straights](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0846-hand-of-straights) |
+| [0860-lemonade-change](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0875-koko-eating-bananas) |
 | [0907-sum-of-subarray-minimums](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0907-sum-of-subarray-minimums) |
 | [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0846-hand-of-straights) |
+| [0860-lemonade-change](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0860-lemonade-change) |
 | [1903-largest-odd-number-in-string](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1903-largest-odd-number-in-string) |
 ## Sorting
 |  |
