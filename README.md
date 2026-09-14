@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0054-spiral-matrix) |
+| [0055-jump-game](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0055-jump-game) |
 | [0073-set-matrix-zeroes](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0079-word-search) |
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0118-pascals-triangle) |
 | [0410-split-array-largest-sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0410-split-array-largest-sum) |
@@ -163,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0055-jump-game](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0055-jump-game) |
 | [0402-remove-k-digits](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0410-split-array-largest-sum) |
 | [0621-task-scheduler](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0621-task-scheduler) |
