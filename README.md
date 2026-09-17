@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0846-hand-of-straights) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/1781-sum-of-beauty-of-all-substrings) |
 ## Union-Find
 |  |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0621-task-scheduler) |
 | [0846-hand-of-straights](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0846-hand-of-straights) |
 | [0973-k-closest-points-to-origin](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0973-k-closest-points-to-origin) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## String
 |  |
 | ------- |
@@ -357,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Enumeration
 |  |
 | ------- |
@@ -439,6 +442,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -454,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0145-binary-tree-postorder-traversal](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0199-binary-tree-right-side-view) |
 | [0543-diameter-of-binary-tree](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0543-diameter-of-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -463,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0199-binary-tree-right-side-view) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/ACHYUTH-H/dsa_leetcode/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 ## DP on Trees
 |  |
 | ------- |
