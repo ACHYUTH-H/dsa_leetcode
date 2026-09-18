@@ -16,24 +16,25 @@
 class Solution {
     int ans=0;
     int count=0;
-    public void inorder(TreeNode root,ArrayList<Integer>list,int k)
+    public void inorder(TreeNode root,int k)
     {
         if (root==null) return ;
-        inorder(root.left,list,k);
-        list.add(root.val);
+        inorder(root.left,k);
+        
         count++;
         if(count==k)
         {
+            ans= root.val;
             return;
         }
-        inorder(root.right,list,k);
+        inorder(root.right,k);
     }
 
     public int kthSmallest(TreeNode root, int k) 
     {
         //what if we do inorder traversal and get the value and print that same value
-        ArrayList<Integer>list=new ArrayList<>();
-        inorder(root,list,k);
-        return list.get(k-1);
+        //ArrayList<Integer>list=new ArrayList<>();
+        inorder(root,k);
+        return ans;
     }
 }
