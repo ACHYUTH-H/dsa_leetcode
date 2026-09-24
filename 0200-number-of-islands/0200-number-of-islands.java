@@ -2,15 +2,11 @@ class Solution {
     private void dfs(int row,int col,char[][] grid)
     {
         //out of boundary
-        if(row<0||row>=grid.length||col<0||col>=grid[0].length)
+        if(row<0||row>=grid.length||col<0||col>=grid[0].length||grid[row][col]=='0')
         {
             return;
         }
-        //if the grid is 0
-        if(grid[row][col]=='0')
-        {
-            return;
-        }
+        
         //marking the row as 0 means visited
         grid[row][col]='0';
 
