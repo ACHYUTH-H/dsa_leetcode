@@ -20,10 +20,12 @@ class Solution {
     public int numIslands(char[][] grid) 
     {
         int count=0;
+        int n=grid.length;
+        int m=grid[0].length;
 
-        for(int i =0 ;i<grid.length;i++)
+        for(int i =0 ;i<n;i++)
         {
-            for(int j=0;j<grid[0].length;j++)
+            for(int j=0;j<m;j++)
             {
                 if(grid[i][j]=='1')
                 {
